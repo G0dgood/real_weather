@@ -98,9 +98,9 @@ const Weather = () => {
 
 	useEffect(() => {
 		const handleResize = () => {
-			if (window.innerWidth < 1080 && !isAbbreviated) {
+			if (window.innerWidth < 768 && !isAbbreviated) {
 				setIsAbbreviated(true);
-			} else if (window.innerWidth >= 1080 && isAbbreviated) {
+			} else if (window.innerWidth >= 768 && isAbbreviated) {
 				setIsAbbreviated(false);
 			}
 		};
