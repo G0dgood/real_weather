@@ -113,7 +113,7 @@
 /* Media query for smaller screen sizes */
 @media screen and (max-width: 720px) {
     .Weather_header_container h1 {
-        font-size: 20px; /* Adjust the font size as needed for smaller screens */
+        font-size: 15px; /* Adjust the font size as needed for smaller screens */
     }
 
 				.main_img_container_sub_time{
